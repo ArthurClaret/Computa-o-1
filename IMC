@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    
+    printf("Calculo do IMC\n");
+    printf("Altura: %f \n" , 1.74);
+    printf("Peso: %f \n", 63.0);
+    
+    printf("IMc %f ", 63.0/(1.74*1.74));
+    
+    return 0 ;
+}
