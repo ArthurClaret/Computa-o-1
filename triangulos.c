@@ -1,3 +1,4 @@
+
 // Dados 3 valores A, B, C (lados do triângulo) fornecidos pelo usuário via teclado, implemente um programa para veriﬁcar
 //se estes valores formam um triângulo, e em caso aﬁrmativo, classiﬁcá-lo como equilátero, isósceles ou escaleno (imprimir
 //mensagem informando o tipo ou uma mensagem especíﬁca caso não formem um triângulo
@@ -27,12 +28,18 @@ int main() {
     
     if (A==B && B==C){
     
-    printf ("E um triangulo equilatero");
+    printf ("\nE um triangulo equilatero");
     
     }
     else if (A!=B && B!=C && C!=A)
     
-    printf ("E um triangulo ")
+    printf ("\nE um triangulo escaleno ");
+    
+    else 
+    
+    printf ("\nE um triangulo isosceles");
+    
+    return 0;
     
     
     
